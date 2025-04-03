@@ -2,6 +2,12 @@
 
 This repository provides a practical demonstration on how to integrate real-time Kafka streams into IBM Watsonx.data, using IBM Cloud Event Streams (Lite plan). It includes detailed instructions, a Python Kafka producer example, and configuration files necessary to set up and query real-time data streams.
 
+## Related Article
+
+Check out the full Medium article here:  
+👉 [Kafka Streaming to IBM Watsonx.data]([https://medium.com/@aletu/kafka-streaming-to-watsonx-data-example](https://medium.com/@tugnolialessio/how-to-add-and-query-kafka-topics-in-ibm-watsonx-data-aff6c98c8836))
+
+
 ## Overview
 
 - **IBM Cloud Event Streams**: Set up using the free Lite plan.
