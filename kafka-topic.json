@@ -1,0 +1,37 @@
+{
+    "topicName": "iss-data",
+    "tableName": "iss_data",
+    "fileContent": {
+        "tableName": "iss_data",
+        "columns": [
+            {
+                "name": "timestamp",
+                "type": "INTEGER",
+                "primaryKey": true
+            }
+        ],
+        "partitionKey": "timestamp",
+        "retentionPeriod": "1 day"
+    },
+    "contents": {
+        "tableName": "iss_data",
+        "topicConfig": {
+            "partitions": 1,
+            "retentionBytes": 100000000,
+            "retentionMs": 86400000,
+            "cleanupPolicy": "delete",
+            "logSegmentSize": 536870912,
+            "segmentIndexBytes": 10485760,
+            "segmentMs": 604800000
+        },
+        "schema": {
+            "type": "struct",
+            "fields": [
+                {
+                    "name": "timestamp",
+                    "type": "int64"
+                }
+            ]
+        }
+    }
+}
