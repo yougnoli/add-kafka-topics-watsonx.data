@@ -5,7 +5,7 @@ This repository provides a practical demonstration on how to integrate real-time
 ## Related Article
 
 Check out the full Medium article here:  
-👉 [Kafka Streaming to IBM Watsonx.data]([https://medium.com/@aletu/kafka-streaming-to-watsonx-data-example](https://medium.com/@tugnolialessio/how-to-add-and-query-kafka-topics-in-ibm-watsonx-data-aff6c98c8836))
+👉 [Kafka Streaming to IBM Watsonx.data](https://medium.com/@tugnolialessio/how-to-add-and-query-kafka-topics-in-ibm-watsonx-data-aff6c98c8836)
 
 
 ## Overview
